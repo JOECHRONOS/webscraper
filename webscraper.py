@@ -129,7 +129,7 @@ while True:
 
     
 
-#make sure you have the file close, or it will not write or save
+#make sure you have the file closed, or it will not write or save
 with open('sku_descriptions.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["SKU", "Description", "Price"])  # sku is useless, too lazy to fix so deal w it (NVM FIXED)
